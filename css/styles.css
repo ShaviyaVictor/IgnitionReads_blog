@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/*the font family for the above imported google font is --font-family: 'Special Elite', cursive;*/
+/*to specify the directory of my .png file, start declaring the url with a /*/
+body{
+    margin: 0px;
+    background-image: url('.images/IR_BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.mainhead{
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+}
+.content{
+    color: #fff;
+    margin-top: -20px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    font-weight: 100;
+}
+.bg_image{
+    display: grid;
+    width: 40%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+li{
+    color: #fff;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px
+}
+nav{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 1.5em;
+}
+nav ul li a{
+    padding: 0.25em 0.3em;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover, nav ul li a:focus{
+    color: #FBCE42;
+    font-weight: bold;
+}
+@media screen and (max-width: 400px){
+    .bg_image{
+        margin-left: 9%;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 570px){
+    .bg_image{
