@@ -4,7 +4,7 @@
 /*to specify the directory of my .png file, start declaring the url with a /*/
 body{
     margin: 0px;
-    background-image: url('.images/ignitionreads.png');
+    background-image: url('images/ignitionreads.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
