@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 /*the font family for the above imported google font is --font-family: 'Special Elite', cursive;*/
 /*to specify the directory of my .png file, start declaring the url with a /*/
 body{
     margin: 0px;
-    background-image: url('.images/IR_BG.png');
+    background-image: url('/images/ignitionreads.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
